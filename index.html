@@ -1,37 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Jwhee.github.io : ">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <title>Jwhee.github.io</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-      <header class="inner">
-        <h1 id="project_title">Jwhee.github.io</h1>
-        <h2 id="project_tagline">你好，我是一個筆記本</h2>
-      </header>
-    </div>
+---
+layout: default
+---
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h5>Jan 13, 2015 <h5>
-        <h3>2015 Resolution</h3>
-        <p>The new resolution is 1080p.</p>
-        <p>No, that wasn't funny.</p>
-        <p>The goal is to have 2 blog posts per month! Let's see if this is umpossible, and conveniently we can tell by looking at my github history (Thanks! github!)</p>        
-      </section>
-    </div>
+{% for post in site.posts %}
+<div class="post">
+  <header class="post-header">
+    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+    <h1 class="post-title">{{ post.title }}</h1>    
+  </header>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-  </body>
-</html>
+  <article class="post-content">
+    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{ post.url | prepend: site.baseurl }}">Read More »</a>
+  </article>
+</div>
+{% endfor %}

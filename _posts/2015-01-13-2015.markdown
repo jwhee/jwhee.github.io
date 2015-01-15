@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "2015"
+date:   2015-01-13 22:26:56
+categories: blog
+---
+The new resolution is 1080p.
+
+No, that wasn't funny.
+
+The goal is to have 2 blog posts per month! Let's see if this is umpossible, and conveniently we can tell by looking at my github history (Thanks! github!)

@@ -1,0 +1,11 @@
+# Site settings
+title: Jwhee.github.io
+email: jerrythefob@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Jwhee's blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jwhee.github.io" # the base hostname & protocol for your site
+github_username:  jwhee
+
+# Build settings
+markdown: kramdown
