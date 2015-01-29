@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why Monster Hunter Became My Favorite Co-op Game"
-date:   2015-01-18 5:30:00
+date:   2015-01-18 17:30:00
 categories: blog
 ---
 [Monster Hunter 4 Ultimate](http://en.wikipedia.org/wiki/Monster_Hunter_4) is coming to North America on February 13th, and the carving hype is real. It's been almost two full years since the last Monster Hunter released in the states. Two years is just too long.
